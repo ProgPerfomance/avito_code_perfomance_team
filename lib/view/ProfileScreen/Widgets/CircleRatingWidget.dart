@@ -10,9 +10,9 @@ class CircleRatingWidget extends StatefulWidget {
 class _CircleRatingWidgetState extends State<CircleRatingWidget> {
   @override
   Widget build(BuildContext context) {
-    return Center(
+    return const Center(
       child: Stack(alignment: Alignment.center,children: [
-        Container(
+        SizedBox(
           height: 30,
           width: 30,
         ),

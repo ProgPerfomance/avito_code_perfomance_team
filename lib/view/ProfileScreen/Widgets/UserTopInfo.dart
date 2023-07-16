@@ -22,7 +22,7 @@ class _UserTopInfoState extends State<UserTopInfo> {
               color: Colors.white, borderRadius: BorderRadius.circular(10),
             border: Border.all(color: Colors.black)
           ),
-          child: Column(
+          child: const Column(
             children: [
               Row(
                 mainAxisAlignment: MainAxisAlignment.start,
